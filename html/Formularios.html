@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios</title>
+	<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header>
+		<h1>FORMULARIOS</h1>
+	</header>
+	<main>
+		<nav>
+		<ul id="menu_ext">
+				<li><a href="../index.html" class="menuf">Index</a></li>
+		  		<li><a href="../html/Formatos_texto.html#formatos"  class="menuf">Formatos</a></li>
+				<li><a href="../html/Listas.html#listas"  class="menuf">Listas</a></li>
+				<li><a href="../html/Enlaces.html#enlaces"  class="menuf">Enlaces</a></li>
+				<li><a href="../html/Tablas.html#tablas" class="menuf">Tablas</a></li>
+				<li><a href="../html/Imagenes.html#imagenes" class="menuf">Imagenes</a></li>
+				<li><a href="../html/Audios.html#audios" class="menuf">Audios</a></li>
+				<li><a href="../html/Videos.html#videos" class="menuf">Videos</a></li>
+				<li><a href="../html/Formularios.html" class="menuf">Formularios</a></li>
+			</ul>
+		</nav>
+		<a name="formulario"></a>
+		<section class="box_1">
+		  <h2>FORMULARIO 1</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex iure, blanditiis, excepturi error eius incidunt mollitia eaque ullam sapiente placeat est enim, architecto, natus minus quasi amet fugit quo quae ratione? Eos, ut, illo! Eum nam deserunt similique nostrum, saepe enim quis ullam, aliquid dignissimos aspernatur magnam cumque rem molestias, consequuntur repudiandae praesentium voluptate delectus exercitationem. Consequatur odit quis, saepe eius neque blanditiis, quidem nesciunt delectus vero dicta exercitationem cum quod dignissimos reprehenderit! Aliquam autem placeat impedit reiciendis saepe est, alias at possimus et, iste cum neque quo eveniet natus esse qui perferendis explicabo in quas, id debitis eos, tenetur.
+			</p>
+			
+			<form id="form1" name="form1" method="get" action="Procesamiento.html">
+				
+			  <label for="nombre">Nombre:</label>
+				<input type="text" name="nombre" id="nombre">
+				<label for="nombre">Apellido:</label>
+			  <input type="text" name="apellido" id="apellido">
+			  <input type="submit" name="submit" value="Enviar">
+					   
+			</form>
+				  
+		</section>
+		
+		<section class="box_1">
+		  <h2>FORMULARIO 2</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex iure, blanditiis, excepturi error eius incidunt mollitia eaque ullam sapiente placeat est enim, architecto, natus minus quasi amet fugit quo quae ratione? Eos, ut, illo! Eum nam deserunt similique nostrum, saepe enim quis ullam, aliquid dignissimos aspernatur magnam cumque rem molestias, consequuntur repudiandae praesentium voluptate delectus exercitationem. Consequatur odit quis, saepe eius neque blanditiis, quidem nesciunt delectus vero dicta exercitationem cum quod dignissimos reprehenderit! Aliquam autem placeat impedit reiciendis saepe est, alias at possimus et, iste cum neque quo eveniet natus esse qui perferendis explicabo in quas, id debitis eos, tenetur.
+			</p>
+			
+			<form id="form2" name="form2" method="get" action="Procesamiento.html">
+				
+				<label>Seleccione genero:</label>
+				
+				<table class="texto_centrado tabla_centrar">
+					<tr>
+						<td>
+							<label>
+							<input type="radio" name="Genero" value="fem" id="Genero_0"> Femenino</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label >
+							<input type="radio" name="Genero" value="masc" id="Genero_1"> Masculino</label>
+						</td>
+					</tr>
+				</table>
+				<br>
+				<label>¿De que pais nos visitas?</label>
+			
+				<select name="pais" id="pais">
+					<option value="mx">México</option>
+					<option value="es">España</option>
+					<option value="eu">Estados Unidos</option>
+					<option value="can">Canadá</option>
+				</select>
+				<br><br>
+				<label>¿Donde residiras durante tu estancia en el pais?</label>
+				<br>
+				<label>
+					<input type="checkbox" name="residencia_temporal" value="domicilio_particular" id="residencia_temporal_0"> Casa de un amigo</label>
+				<br>
+				<label>
+					<input type="checkbox" name="residencia_temporal" value="hotel" id="residencia_temporal_1"> Hotel</label>
+				<br>
+				<label>
+					<input type="checkbox" name="residencia_temporal" value="airbnb" id="residencia_temporal_2"> Airbnb</label>
+				
+				<input type="submit" name="submit2" id="submit2" Value="Enviar">
+				
+			</form>
+				  
+		</section>
+		
+		<section class="box_1">
+		  <h2>FORMULARIO 3</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex iure, blanditiis, excepturi error eius incidunt mollitia eaque ullam sapiente placeat est enim, architecto, natus minus quasi amet fugit quo quae ratione? Eos, ut, illo! Eum nam deserunt similique nostrum, saepe enim quis ullam, aliquid dignissimos aspernatur magnam cumque rem molestias, consequuntur repudiandae praesentium voluptate delectus exercitationem. Consequatur odit quis, saepe eius neque blanditiis, quidem nesciunt delectus vero dicta exercitationem cum quod dignissimos reprehenderit! Aliquam autem placeat impedit reiciendis saepe est, alias at possimus et, iste cum neque quo eveniet natus esse qui perferendis explicabo in quas, id debitis eos, tenetur.
+			</p>
+			
+			<form id="form3" name="form3" method="get" action="Procesamiento.html">
+				
+			  	<label for="usuario">Nombre:</label>
+				<input type="text" name="usuario" id="usuario">
+				<label for="contraseña">Matrícula:</label>
+				<input type="text" name="contraseña" id="contraseña">
+				<br><br>
+				
+				<label for="miarchivo">Selecciona archivo</label>
+				<input type="file" id="miarchivo" name="miarchivo">
+				<br><br>
+				<label for="cumpleaños">Fecha de entrega (mm/yyyy)</label>
+				<input type="month" id="month" name="month">
+				<br><br>
+				<label for="cal">Autoevaluación (de 0 a 100):</label>
+				<input type="range" id="cal" min="0" max="100">
+				<br><br>
+				<label for="color">Color de sección:</label>
+				<input type="color" name="color" value="#ff0000">
+				<br><br>
+				<input type="submit" value="Enviar" id="submit3">
+			</form>
+				  
+		</section>
+		
+	  <section class="box_1">
+		  <h2>FORMULARIO 4</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex iure, blanditiis, excepturi error eius incidunt mollitia eaque ullam sapiente placeat est enim, architecto, natus minus quasi amet fugit quo quae ratione? Eos, ut, illo! Eum nam deserunt similique nostrum, saepe enim quis ullam, aliquid dignissimos aspernatur magnam cumque rem molestias, consequuntur repudiandae praesentium voluptate delectus exercitationem. Consequatur odit quis, saepe eius neque blanditiis, quidem nesciunt delectus vero dicta exercitationem cum quod dignissimos reprehenderit! Aliquam autem placeat impedit reiciendis saepe est, alias at possimus et, iste cum neque quo eveniet natus esse qui perferendis explicabo in quas, id debitis eos, tenetur.
+			</p>
+			
+		<form id="form4" name="form4" method="get" action="Procesamiento.html">
+				
+			  	<label for="email">Email:</label>
+				<br>
+				<input type="text" name="email" id="email">
+				<br><br>
+				<label for="textarea">Comentario:</label>
+				<br>
+				<textarea name="textarea" id="textarea" >Escriba su comentario aquí...</textarea>
+				
+				<input type="submit" name="submit4" id="submit4" Value="Enviar">
+			</form>
+				  
+		</section>
+		
+		<footer>
+			<p>
+				<b>David Eric Gaby García</b>
+			</p>
+		</footer>
+	</main>
+</body>
+</html>
